@@ -1,0 +1,423 @@
+Simulado SUS sistema único de saúde, Leia com muita atenção e responda. BOA SORTE!!! Estou torcendo pelo seu sucesso!!! 
+
+```html
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sobre o SUS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .correct {
+            color: green;
+            font-weight: bold;
+        }
+        .incorrect {
+            color: red;
+            font-weight: bold;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Quiz sobre o Sistema Único de Saúde (SUS)</h1>
+
+<div id="quiz">
+    <div class="question">
+        <p>1. A Universalidade de Acesso ao SUS, conforme a Constituição brasileira de 1988, assegura que:</p>
+        <input type="radio" name="q1" value="a"> a) Apenas os cidadãos brasileiros podem acessar o SUS<br>
+        <input type="radio" name="q1" value="b"> b) O acesso aos serviços de saúde é restrito a quem contribui financeiramente<br>
+        <input type="radio" name="q1" value="c" class="correct"> c) Todas as pessoas, independentemente de sua condição financeira, têm direito ao atendimento<br>
+        <input type="radio" name="q1" value="d"> d) O atendimento é exclusivo para situações de emergência<br>
+    </div>
+
+    <div class="question">
+        <p>2. Qual dos princípios apresentados está diretamente relacionado à garantia de que todos os brasileiros, sem discriminação, tenham direito ao atendimento de saúde pública?</p>
+        <input type="radio" name="q2" value="a"> a) Descentralização<br>
+        <input type="radio" name="q2" value="b"> b) Integralidade<br>
+        <input type="radio" name="q2" value="c"> c) Financiamento Público<br>
+        <input type="radio" name="q2" value="d" class="correct"> d) Universalidade de Acesso<br>
+    </div>
+
+    <div class="question">
+        <p>3. A descentralização do SUS prevista pela Constituição brasileira 1988 significa:</p>
+        <input type="radio" name="q3" value="a"> a) Que a gestão do sistema de saúde é exclusivamente do governo federal<br>
+        <input type="radio" name="q3" value="b" class="correct"> b) Que estados e municípios assumem parte da gestão do sistema de saúde com participação da comunidade<br>
+        <input type="radio" name="q3" value="c"> c) Que a administração do sistema de saúde é privatizada em diversas regiões<br>
+        <input type="radio" name="q3" value="d"> d) Que o financiamento do SUS depende de contribuições privadas<br>
+    </div>
+
+    <div class="question">
+        <p>4. Sobre o princípio da Participação Social no SUS, correlacione as colunas com a alternativa correta:</p>
+        <input type="radio" name="q4" value="a"> (  ) A gestão centralizada do SUS pelo governo federal</p>
+	<input type="radio" name="q4" value="a"> (  ) O envolvimento da comunidade na formulação e controle das políticas públicas de saúde</p>
+	<input type="radio" name="q4" value="a"> (  ) A contribuição financeira obrigatória da população para o SUS </p>
+	<input type="radio" name="q4" value="a"> (  ) A criação de consórcios privados para gerenciar o sistema de saúde  </p>
+        <input type="radio" name="q4" value="a"> a) V, F, V, V<br>
+        <input type="radio" name="q4" value="b" class="correct"> b) F, V, F, F<br>
+        <input type="radio" name="q4" value="c"> c) V, V, F, V<br>
+        <input type="radio" name="q4" value="d"> d) F, F, F, F<br>
+    </div>
+
+    <div class="question">
+        <p>5. O princípio da integralidade da assistência no SUS refere-se a:</p>
+        <input type="radio" name="q5" value="a"> a) Focar apenas no atendimento hospitalar<br>
+        <input type="radio" name="q5" value="b" class="correct"> b) Garantir a promoção, proteção e recuperação da saúde de forma abrangente<br>
+        <input type="radio" name="q5" value="c"> c) Limitar os serviços de saúde às urgências e emergências<br>
+        <input type="radio" name="q5" value="d"> d) Oferecer atendimento apenas para doenças crônicas<br>
+    </div>
+
+    <div class="question">
+        <p>6. A integralidade da assistência no SUS visa tratar o indivíduo de forma holística, considerando suas necessidades físicas, psicológicas e sociais, garantindo acesso a serviços de saúde de maneira contínua e coordenada. Sobre a integralidade da assistência no SUS, assinale a alternativa CORRETA.</p>
+        <input type="radio" name="q6" value="a"> a) Atue somente em casos de alta complexidade<br>
+        <input type="radio" name="q6" value="b"> b) Proporcione apenas a promoção da saúde<br>
+        <input type="radio" name="q6" value="c" class="correct"> c) Ofereça cuidados que envolvem todas as etapas de promoção, prevenção, e recuperação da saúde<br>
+        <input type="radio" name="q6" value="d"> d) Concentre-se exclusivamente na medicina preventiva<br>
+    </div>
+
+    <div class="question">
+        <p>7. O financiamento do SUS, de acordo com a Constituição de 1988, provém principalmente de:</p>
+        <input type="radio" name="q7" value="a"> a) Doações privadas<br>
+        <input type="radio" name="q7" value="b"> b) Parcerias público-privadas<br>
+        <input type="radio" name="q7" value="c" class="correct"> c) Recursos do orçamento da seguridade social, através de impostos e contribuições<br>
+        <input type="radio" name="q7" value="d"> d) Pagamentos diretos dos usuários<br>
+    </div>
+
+    <div class="question">
+        <p>8. O financiamento público do SUS é garantido por:</p>
+        <input type="radio" name="q8" value="a"> a) Investimentos estrangeiros<br>
+        <input type="radio" name="q8" value="b"> b) Doações voluntárias<br>
+        <input type="radio" name="q8" value="c" class="correct"> c) Recursos do orçamento federal, estadual e municipal, com base em impostos e contribuições<br>
+        <input type="radio" name="q8" value="d"> d) Taxas de atendimento aplicadas aos usuários<br>
+    </div>
+
+    <div class="question">
+        <p>9. Qual foi uma das primeiras iniciativas de saúde pública no Brasil após a chegada da família real?</p>
+        <input type="radio" name="q9" value="A"> A) Criação do Sistema Único de Saúde (SUS)<br>
+        <input type="radio" name="q9" value="B" class="correct"> B) Criação da Junta de Saúde Pública<br>
+        <input type="radio" name="q9" value="C"> C) Introdução do Programa de Saúde da Família<br>
+        <input type="radio" name="q9" value="D"> D) Estabelecimento de hospitais privados<br>
+    </div>
+
+    <div class="question">
+        <p>10. Qual foi o principal objetivo da criação da Junta de Saúde Pública em 1808?</p>
+        <input type="radio" name="q10" value="A"> A) Privatizar os serviços de saúde<br>
+        <input type="radio" name="q10" value="B" class="correct"> B) Controlar epidemias e promover a saúde da população<br>
+        <input type="radio" name="q10" value="C"> C) Limitar o acesso à saúde apenas a nobres<br>
+        <input type="radio" name="q10" value="D"> D) Coordenar atividades culturais e sociais<br>
+    </div>
+
+    <div class="question">
+        <p>11. Qual foi uma das principais iniciativas de saúde pública no Brasil após a chegada da família real?</p>
+        <input type="radio" name="q11" value="A"> A) Privatizar os serviços de saúde<br>
+        <input type="radio" name="q11" value="B" class="correct"> B) Controlar epidemias e promover a saúde da população<br>
+        <input type="radio" name="q11" value="C"> C) Limitar o acesso à saúde apenas a nobres<br>
+        <input type="radio" name="q11" value="D"> D) Coordenar atividades culturais e sociais<br>
+    </div>
+
+    <div class="question">
+        <p>12. Durante o Sanitarismo Campanhista, qual das seguintes doenças não foi especificamente controlada?</p>
+        <input type="radio" name="q12" value="A"> A) Febre amarela<br>
+        <input type="radio" name="q12" value="B"> B) Varíola<br>
+        <input type="radio" name="q12" value="C" class="correct"> C) Peste bubônica<br>
+        <input type="radio" name="q12" value="D"> D) Gripe<br>
+    </div>
+
+    <div class="question">
+        <p>13. Qual foi o principal objetivo da Reforma Sanitária no Brasil durante a década de 1970?</p>
+        <input type="radio" name="q13" value="A"> A) Privatizar os hospitais públicos<br>
+        <input type="radio" name="q13" value="B" class="correct"> B) Criar um sistema de saúde universal e descentralizado<br>
+        <input type="radio" name="q13" value="C"> C) Implementar taxas de saúde para tratamentos médicos<br>
+        <input type="radio" name="q13" value="D"> D) Reduzir o número de postos de saúde<br>
+    </div>
+
+    <div class="question">
+        <p>14. Qual era uma das principais críticas ao sistema de saúde antes da Reforma Sanitária?</p>
+        <input type="radio" name="q14" value="A" class="correct"> A) Baixa qualidade no atendimento ao paciente<br>
+        <input type="radio" name="q14" value="B"> B) Excesso de financiamento público<br>
+        <input type="radio" name="q14" value="C"> C) Centralização dos serviços de saúde<br>
+        <input type="radio" name="q14" value="D"> D) Falta de equipamentos médicos modernos<br>
+    </div>
+
+    <div class="question">
+        <p>15. O que foi o movimento da Reforma Sanitária?</p>
+        <input type="radio" name="q15" value="a"> a) Um movimento que defendia a privatização da saúde no Brasil.<br>
+        <input type="radio" name="q15" value="b" class="correct"> b) Um movimento social que buscava transformar o sistema de saúde brasileiro, visando sua universalização e gratuidade.<br>
+        <input type="radio" name="q15" value="c"> c) Uma campanha voltada para a criação de hospitais privados no país.<br>
+        <input type="radio" name="q15" value="d"> d) Um projeto do governo militar para melhorar o atendimento de saúde.<br>
+    </div>
+
+    <div class="question">
+        <p>16. Qual princípio central foi defendido pelo movimento da Reforma Sanitária?</p>
+        <input type="radio" name="q16" value="a"> a) O acesso à saúde apenas para trabalhadores formais.<br>
+        <input type="radio" name="q16" value="b"> b) A descentralização do poder do sistema de saúde.<br>
+        <input type="radio" name="q16" value="c" class="correct"> c) O acesso universal e gratuito à saúde.<br>
+        <input type="radio" name="q16" value="d"> d) O financiamento da saúde apenas por empresas privadas.<br>
+    </div>
+
+    <div class="question">
+        <p>17. Quem financia o SUS?</p>
+        <input type="radio" name="q17" value="A"> A) Somente o governo federal<br>
+        <input type="radio" name="q17" value="B" class="correct"> B) Impostos e contribuições sociais<br>
+        <input type="radio" name="q17" value="C"> C) Apenas doações privadas<br>
+        <input type="radio" name="q17" value="D"> D) Os pacientes<br>
+    </div>
+
+    <div class="question">
+        <p>18. Por que o SUS foi criado?</p>
+        <input type="radio" name="q18" value="A"> A) Para oferecer saúde apenas para trabalhadores<br>
+        <input type="radio" name="q18" value="B"> B) Para limitar o acesso à saúde<br>
+        <input type="radio" name="q18" value="C" class="correct"> C) Para garantir acesso universal à saúde<br>
+        <input type="radio" name="q18" value="D"> D) Para privatizar o sistema de saúde<br>
+    </div>
+
+    <div class="question">
+        <p>19. De acordo com a Lei 8.080/1990, qual dos seguintes princípios é essencial para a organização do Sistema Único de Saúde (SUS)?</p>
+        <input type="radio" name="q19" value="A" class="correct"> A) Hierarquização dos serviços de saúde.<br>
+        <input type="radio" name="q19" value="B"> B) Exclusividade da iniciativa privada na prestação de serviços de saúde.<br>
+        <input type="radio" name="q19" value="C"> C) Centralização das ações de saúde na União.<br>
+        <input type="radio" name="q19" value="D"> D) Limitação do acesso aos serviços de saúde para apenas as regiões metropolitanas.<br>
+	<input type="radio" name="q19" value="D"> E) Isenção total de participação social na gestão do SUS.<br>
+    </div>
+
+    <div class="question">
+        <p>20. A Lei 8.080/1990 estabelece a articulação interfederativa entre União, estados e municípios para a organização do SUS. No entanto, para a execução dessa articulação, a lei também prevê instâncias de pactuação como as Comissões Intergestores. Qual é o papel central dessas comissões no contexto da descentralização e regionalização dos serviços de saúde?</p>
+        <input type="radio" name="q20" value="a"> a) Definir os critérios de financiamento exclusivo para serviços de alta complexidade.<br>
+        <input type="radio" name="q20" value="b"> b) Promover a privatização de parte dos serviços de saúde, facilitando parcerias público privadas.<br>
+        <input type="radio" name="q20" value="c" class="correct"> c) Estabelecer pactos entre os gestores dos diferentes entes federativos para a coordenação e integração das ações e serviços de saúde, garantindo a equidade na oferta e a organização das redes de atenção.<br>
+        <input type="radio" name="q20" value="d"> d) Centralizar todas as decisões de saúde em nível estadual, excluindo a participação municipal.<br>
+        <input type="radio" name="q20" value="e"> e) Controlar a distribuição de medicamentos essenciais entre estados e municípios, sem interferir em outros aspectos da gestão.<br>
+    </div>
+
+    <div class="question">
+        <p>21. Como o SUS assegura a integralidade do atendimento à saúde?</p>
+        <input type="radio" name="q21" value="A" class="correct"> A) garantindo o acesso a tratamentos apenas para doenças crônicas.<br>
+        <input type="radio" name="q21" value="B"> B) Por meio de uma abordagem que busca cobrir todas as necessidades de saúde dos indivíduos de forma contínua e coordenada.<br>
+        <input type="radio" name="q21" value="C"> C) Limitando a cobertura apenas a medicamentos e procedimentos cirúrgicos.<br>
+        <input type="radio" name="q21" value="D"> D) Implementando que as necessidades de indivíduos de classe alta não sejam atendidas.<br>
+    </div>
+
+    <div class="question">
+        <p>22. Assinale a alternativa INCORRETA sobre os princípios do SUS.</p>
+        <input type="radio" name="q22" value="A"> A) O SUS é baseado na universalidade, o que significa que todos têm direito ao acesso aos serviços de saúde.<br>
+        <input type="radio" name="q22" value="B"> B) Os principais níveis de gestão do SUS são federal, estadual e municipal.<br>
+        <input type="radio" name="q22" value="C" class="correct"> C) O princípio da descentralização no SUS implica que o controle e a gestão dos serviços de saúde devem ser centralizados no governo federal.<br>
+        <input type="radio" name="q22" value="D"> D) O SUS incentiva a participação social através de conselhos de saúde e conferências, permitindo que a comunidade participe das decisões sobre políticas e serviços de saúde.<br>
+    </div>
+
+    <div class="question">
+               <p>23. A constituição prevê no artigo 15, ao tratar da competência comum dos entes políticos, assim enumerou as atribuições a serem exercidas no âmbito administrativo da União, dos Estados, dos Municípios e do Distrito Federal. Em relação ao que se compete à direção nacional do Sistema Único de Saúde e a vigilância sanitária, é correto afirmar:</p>
+        <input type="radio" name="q23" value="A" class="correct"> A) Estabelecer normas e executar a vigilância sanitária de portos, aeroportos e fronteiras, podendo a execução ser complementada pelos Estados, Distrito Federal e Municípios.<br>
+        <input type="radio" name="q23" value="B"> B) Anarquizar os procedimentos, produtos e substâncias de interesse para a saúde.<br>
+        <input type="radio" name="q23" value="C"> C) Estabelecer critérios, parâmetros e métodos para o controle da qualidade sanitária de produtos, para a redistribuição.<br>
+        <input type="radio" name="q23" value="D"> D) Diversificar e consolidar nacionalmente o Sistema Nacional de Sangue e Emendas Supressivas, que estão sendo avaliadas pelo Congresso Nacional.<br>
+    </div>
+
+    <div class="question">
+        <p>24. A Lei 8.080/1990, que criou o Sistema Único de Saúde (SUS), estabelece que a saúde é determinada e condicionada por vários fatores, designando várias atribuições e competências, entre elas assinale a alternativa INCORRETA:</p>
+        <input type="radio" name="q24" value="A"> A) Assegurar assistência às pessoas por meio de ações de promoção, proteção e recuperação da saúde.<br>
+        <input type="radio" name="q24" value="B"> B) Definir mecanismos de controle e avaliação dos serviços de saúde.<br>
+        <input type="radio" name="q24" value="C"> C) Planejar, organizar, controlar, avaliar e executar ações e serviços de saúde.<br>
+        <input type="radio" name="q24" value="D" class="correct"> D) Descentralizar a saúde, redistribuir o plano econômico e seu subfinanciamento. Regulamentação das Ações e Serviços de Saúde: Regula todas as ações e serviços de saúde no território brasileiro, sejam eles públicos ou privados, incluindo as atividades de vigilância epidemiológica, sanitária e de saúde do trabalhador.<br>
+    </div>
+
+    <div class="question">
+        <p>25. O SUS foi implementado para garantir o acesso universal e integral à saúde através da lei n° 8080 de 1990 sob o governo de Fernando Collor de Mello. Embora Collor não tenha sido o autor do conceito do SUS, ele foi responsável por sancionar a legislação que deu base à sua regulamentação e operacionalização. Com relação à regulamentação das ações e serviços de saúde é correto afirmar que:</p>
+        <input type="radio" name="q25" value="A" class="correct"> A) A regulamentação das Ações e Serviços de Saúde regula todas as ações e serviços de saúde no território brasileiro, sejam eles públicos ou privados, incluindo as atividades de vigilância epidemiológica, sanitária e de saúde do trabalhador.<br>
+        <input type="radio" name="q25" value="B"> B) A regulamentação das Ações e Serviços de Saúde abrange a totalidade das ações e serviços de saúde no território brasileiro, sejam eles públicos ou privados, incluindo as atividades de vigilância epidemiológica, sanitária, saúde do trabalhador e saúde suplementar.<br>
+        <input type="radio" name="q25" value="C"> C) A regulamentação das Ações e Serviços de Saúde regula todas as ações e serviços de saúde no território brasileiro, sejam eles públicos ou privados, incluindo as atividades de vigilância epidemiológica, sanitária e de saúde suplementar.<br>
+        <input type="radio" name="q25" value="D"> D) A regulamentação das Ações e Serviços de Saúde regula todas as ações e serviços de saúde no território brasileiro, sejam eles públicos ou privados, porém, não inclui as atividades de saúde do trabalhador.<br>
+    </div>
+
+    <div class="question">
+        <p>26. A lei n° 8080/1990 regula as ações de serviço de saúde no país, sendo eles, públicos ou privados. Com relação aos serviços praticados pelo SUS com base nas suas regulamentações, assinale a alternativa correta de serviços prestados pela rede pública de saúde.</p>
+        <input type="radio" name="q26" value="A" class="correct"> A) Serviço de Vigilância epidemiológica, vigilância sanitária e saúde do trabalhador.<br>
+        <input type="radio" name="q26" value="B"> B) Serviço de Vigilância sanitária, saúde do trabalhador, cirurgia e tratamentos estéticos.<br>
+        <input type="radio" name="q26" value="C"> C) Saúde do trabalhador, vigilância sanitária e seguros de vida privados.<br>
+        <input type="radio" name="q26" value="D"> D) Serviço de vigilância sanitária, vigilância epidemiológica, saúde do trabalhador e atendimento médico internacional.Financiamento e Recursos Humanos: A lei também trata do financiamento do SUS e da gestão de recursos humanos, definindo os mecanismos de alocação de verbas e a importância da formação de profissionais de saúde.<br>
+    </div>
+
+    <div class="question">
+        <p>27. O financiamento do SUS é tripartite, ou seja, é responsabilidade das três esferas de governo: federal, estadual e municipal. A Lei 141/2012 estabelece que os municípios devem investir no mínimo 15% de suas receitas e os estados 12%, portanto quais outras fontes de financiamento do SUS:</p>
+        <input type="radio" name="q27" value="A" class="correct"> A) Recursos governamentais, próprios ou transferidos; Renda gerada pela venda de serviços; Recursos captados através de doações.<br>
+        <input type="radio" name="q27" value="B"> B) Fundeb; Parcerias públicas privadas; Subvenções.<br>
+        <input type="radio" name="q27" value="C"> C) Recursos governamentais; Parcerias públicas privadas; Programa Saúde de Alto rendimento.<br>
+        <input type="radio" name="q27" value="D"> D) Renda gerada pela venda de serviços; Fundos de investimentos; Recursos captados através de doações.<br>
+    </div>
+
+    <div class="question">
+        <p>28. Em relação aos recursos humanos no SUS, a Lei 8.080/1990 destaca a importância da formação e valorização dos profissionais de saúde. Assinale a alternativa INCORRETA em relação à estratégia central definida pela lei para garantir a qualidade e a adequação dos profissionais ao sistema de saúde.</p>
+        <input type="radio" name="q28" value="a"> a) O incentivo à contratação de profissionais estrangeiros em áreas urbanas de maior demanda.<br>
+        <input type="radio" name="q28" value="b" class="correct"> b) A criação de instituições privadas especializadas em formar exclusivamente gestores de saúde.<br>
+        <input type="radio" name="q28" value="c"> c) A promoção de programas permanentes de formação e capacitação, com ênfase na educação continuada e na regionalização da formação de profissionais de saúde para atender às necessidades locais.<br>
+        <input type="radio" name="q28" value="d"> d) Financiamento por meio de taxas de atendimento cobradas diretamente dos usuários do SUS com ênfase na educação continuada e na regionalização da formação de profissionais de saúde para atender às necessidades locais.<br>
+    </div>
+
+    <div class="question">
+        <p>29. O financiamento do Sistema Único de Saúde (SUS) é realizado de forma tripartite, envolvendo a União, os estados e os municípios. Sobre o repasse de recursos federais ao SUS, assinale a alternativa CORRETA:</p>
+        <input type="radio" name="q29" value="a" class="correct"> a) Os recursos do piso de Atenção Básica (PAB) são transferidos trimestralmente do fundo nacional de Saúde aos fundos de Saúde dos estados e municípios.<br>
+        <input type="radio" name="q29" value="b"> b) O repasse fundo a fundo é a modalidade preferencial de transferência de recursos entre os gestores do SUS.<br>
+        <input type="radio" name="q29" value="c"> c) Os recursos destinados à vigilância em saúde são transferidos diretamente aos hospitais públicos.<br>
+        <input type="radio" name="q29" value="d"> d) O financiamento do SUS é exclusivamente responsabilidade do governo federal, sem participação dos estados e municípios.<br>
+    </div>
+
+    <div class="question">
+        <p>30. De acordo com a legislação vigente, os estados e municípios devem investir um percentual mínimo de suas receitas em ações e serviços públicos de saúde. Sobre esse repasse, assinale a alternativa CORRETA:</p>
+        <input type="radio" name="q30" value="A" class="correct"> A) Os estados devem investir no mínimo 12% de suas receitas em saúde, enquanto os municípios devem investir no mínimo 15%.<br>
+        <input type="radio" name="q30" value="B"> B) Os estados devem investir no mínimo 15% de suas receitas em saúde, enquanto os municípios devem investir no mínimo 12%.<br>
+        <input type="radio" name="q30" value="C"> C) Tanto os estados quanto os municípios devem investir no mínimo 10% de suas receitas em saúde.<br>
+        <input type="radio" name="q30" value="D"> D) Os estados e municípios não têm um percentual mínimo obrigatório para investir em saúde.<br>
+    </div>
+
+    <div class="question">
+        <p>31. As conferências de Saúde são momentos importantes no fortalecimento do SUS. Diante disso assinale os objetivos principais da conferência:</p>
+        <input type="radio" name="q31" value="a" class="correct"> a) Participação Social; Integração de Setores; Fortalecimento do Controle Social; Proposição de Diretrizes.<br>
+        <input type="radio" name="q31" value="b"> b) Aplicativos de Saúde; Proposição de Diretrizes; Prontuário Eletrônico.<br>
+        <input type="radio" name="q31" value="c"> c) Desigualdade Regional; Participação Social; Fortalecimento do Controle Social.<br>
+        <input type="radio" name="q31" value="d"> d) Prevenção e promoção de Saúde; Integração de Setores; Educação em saúde.<br>
+    </div>
+
+    <div class="question">
+        <p>32. Quais os desafios enfrentados pela Conferência de Saúde para garantir uma participação efetiva e representativa da população?</p>
+        <input type="radio" name="q32" value="A" class="correct"> A) Falta de informação e Desigualdade na representação.<br>
+        <input type="radio" name="q32" value="B"> B) Inovação em processos e Subfinanciamento.<br>
+        <input type="radio" name="q32" value="C"> C) Desigualdade na representação e Qualidade de serviços.<br>
+        <input type="radio" name="q32" value="D"> D) Nenhuma das alternativas.<br>
+    </div>
+
+    <div class="question">
+        <p>33. A Lei 8142, de 1990, dispõe sobre a participação da comunidade na gestão do Sistema Único de Saúde (SUS) e Controle Social. Conforme o que preconiza esta Lei, qual é o papel dos Conselhos de Saúde na fiscalização dos recursos financeiros do SUS? Assinale a alternativa CORRETA.</p>
+        <input type="radio" name="q33" value="A"> A) Sugerir novas melhorias sem poder de decisão.<br>
+        <input type="radio" name="q33" value="B"> B) Controlar a execução financeira da saúde a nível Federal.<br>
+        <input type="radio" name="q33" value="C" class="correct"> C) Analisar e aprovar a aplicação dos recursos no âmbito municipal, estadual e federal.<br>
+        <input type="radio" name="q33" value="D"> D) Fiscalizar o orçamento de serviços de saúde apenas em nível municipal.<br>
+    </div>
+
+    <div class="question">
+        <p>34. Segundo a Lei 8142./1990 quais requisitos  garantem a participação  popular na gestão  do SUS ? </p>
+        <input type="radio" name="q34" value="A" class="correct"> A) Contratação de consultores externos para fiscalização  das políticas de saúde.<br>
+        <input type="radio" name="q34" value="B"> B) Eleição  direta de gestores do SUS pela população.<br>
+        <input type="radio" name="q34" value="C"> C) Consultas esporádicas ao população usuária do serviço e trabalhadores. <br>
+        <input type="radio" name="q34" value="D"> D) Criação de conferência  e conselhos de Saúde  com a participação  de usuários,  trabalhadores  e gestores.<br>
+    </div>
+
+    <div class="question">
+        <p>35. A Lei 8142/90 reafirma o princípio da descentralização na gestão do SUS. Qual é o principal benefício dessa descentralização?</p>
+        <input type="radio" name="q35" value="A"> A) Aumento da burocracia na administração da saúde.<br>
+        <input type="radio" name="q35" value="B"> B) Aproximação da gestão de saúde às necessidades locais da população. <br>
+        <input type="radio" name="q35" value="C" class="correct"> C) Centralização das decisões em nível federal.<br>
+        <input type="radio" name="q35" value="D"> D) Redução da participação da comunidade.<br>
+    </div>
+
+    <div class="question">
+        <p>36. Como a Lei 8142/90 promove a participação comunitária na gestão da saúde?</p>
+        <input type="radio" name="q36" value="A"> A) Proibindo a participação da sociedade civil nas decisões.<br>
+        <input type="radio" name="q36" value="B" class="correct"> B) Criando conselhos de saúde com representação da comunidade. <br>
+        <input type="radio" name="q36" value="C"> C) Estabelecendo um sistema de saúde exclusivamente privado.<br>
+        <input type="radio" name="q36" value="D"> D) Ignorando as demandas da população nas políticas de saúde.<br>
+    </div>
+
+    <div class="question">
+        <p>37. Como os Conselhos de Saúde, previstos pela Lei 8.142/90, são estruturados em termos de composição?</p>
+        <input type="radio" name="q37" value="A" class="correct"> A) São compostos exclusivamente por representantes do governo e gestores públicos.<br>
+        <input type="radio" name="q37" value="B"> B) São formados por representantes do governo, prestadores de serviços, profissionais de saúde e usuários, garantindo a participação igualitária da sociedade. <br>
+        <input type="radio" name="q37" value="C"> C) Contam apenas com prestadores de serviços e profissionais de saúde, sem participação dos usuários.<br>
+        <input type="radio" name="q37" value="D"> D) d) Incluem representantes do governo e ONGs internacionais, mas sem participação direta dos profissionais de saúde.<br>
+    </div>
+
+    <div class="question">
+        <p>38. De que forma os Conselhos de Saúde, estabelecidos pela Lei 8.142/90, garantem a participação da comunidade no Sistema Único de Saúde (SUS)?</p>
+        <input type="radio" name="q38" value="A"> A) Atuam como fóruns de deliberação, onde a gestão, os trabalhadores e os usuários de saúde participam de forma paritária na formulação e controle das políticas de saúde. <br>
+        <input type="radio" name="q38" value="B"> B) Funcionam apenas como órgãos consultivos, emitindo pareceres sem impacto direto nas decisões de saúde pública.<br>
+        <input type="radio" name="q38" value="C" class="correct"> C)São compostos apenas por profissionais da área da saúde e gestores públicos, sem a participação de usuários ou sociedade civil.<br>
+        <input type="radio" name="q38" value="D"> D) Realizam reuniões esporádicas, sem caráter decisório, apenas para discutir demandas específicas dos gestores de saúde. <br>
+    </div>
+
+</div>
+
+<button onclick="checkAnswers()">Enviar</button>
+
+<div id="feedback" style="margin-top: 20px;"></div>
+
+<script>
+    function checkAnswers() {
+        const feedback = document.getElementById('feedback');
+        feedback.innerHTML = ''; // Limpa feedback anterior
+
+        const questions = [
+            { name: 'q1', correct: 'c' },
+            { name: 'q2', correct: 'd' },
+            { name: 'q3', correct: 'b' },
+            { name: 'q4', correct: 'b' },
+            { name: 'q5', correct: 'b' },
+            { name: 'q6', correct: 'c' },
+            { name: 'q7', correct: 'c' },
+            { name: 'q8', correct: 'c' },
+            { name: 'q9', correct: 'B' },
+            { name: 'q10', correct: 'B' },
+            { name: 'q11', correct: 'B' },
+            { name: 'q12', correct: 'C' },
+            { name: 'q13', correct: 'B' },
+            { name: 'q14', correct: 'A' },
+            { name: 'q15', correct: 'b' },
+            { name: 'q16', correct: 'c' },
+            { name: 'q17', correct: 'B' },
+            { name: 'q18', correct: 'C' },
+            { name: 'q19', correct: 'A' },
+            { name: 'q20', correct: 'c' },
+            { name: 'q21', correct: 'A' },
+            { name: 'q22', correct: 'C' },
+            { name: 'q23', correct: 'A' },
+            { name: 'q24', correct: 'D' },
+            { name: 'q25', correct: 'A' },
+            { name: 'q26', correct: 'A' },
+            { name: 'q27', correct: 'A' },
+            { name: 'q28', correct: 'b' },
+            { name: 'q29', correct: 'a' },
+            { name: 'q30', correct: 'A' },
+            { name: 'q31', correct: 'a' },
+            { name: 'q32', correct: 'A' },
+            { name: 'q33', correct: 'C' },
+            { name: 'q34', correct: 'D' },
+            { name: 'q35', correct: 'B' },
+            { name: 'q36', correct: 'B' },
+            { name: 'q37', correct: 'B' },
+            { name: 'q38', correct: 'A' }
+        ];
+
+        let score = 0;
+
+        questions.forEach(question => {
+            const selected = document.querySelector(`input[name="${question.name}"]:checked`);
+            if (selected && selected.value === question.correct) {
+                score++;
+                feedback.innerHTML += `<p class="correct">Questão ${question.name} correta!</p>`;
+            } else {
+                feedback.innerHTML += `<p class="incorrect">Questão ${question.name} incorreta. Resposta correta: ${question.correct}.</p>`;
+            }
+        });
+
+        feedback.innerHTML += `<p>Você acertou ${score} de ${questions.length} questões.</p>`;
+    }
+</script>
+
+</body>
+</html>
+
+
